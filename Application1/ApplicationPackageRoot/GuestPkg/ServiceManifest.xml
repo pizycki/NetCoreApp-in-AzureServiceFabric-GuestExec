@@ -23,7 +23,7 @@
     -->
     <EntryPoint>
       <ExeHost>
-        <Program>run.cmd</Program>
+        <Program>ConsoleApp.exe</Program>
         <Arguments></Arguments>
         <WorkingFolder>CodePackage</WorkingFolder>
         <!-- Uncomment to log console output (both stdout and stderr) to one of the

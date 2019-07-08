@@ -29,7 +29,7 @@
     <None Include="Scripts\Deploy-FabricApplication.ps1" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\ConsoleApp\bin\Debug\netcoreapp2.2\**\*.*">
+    <Content Include="..\ConsoleApp\bin\sf\**\*.*">
       <Link>ApplicationPackageRoot\GuestPkg\Code\%(RecursiveDir)%(Filename)%(Extension)</Link>
     </Content>
     <Content Include="ApplicationPackageRoot\GuestPkg\Config\Settings.xml" />
